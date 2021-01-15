@@ -1,0 +1,141 @@
+h1, h2, h3, h4, h5, h6, p, dd, dt, dl {
+    margin: 0;
+}
+
+
+
+header {
+    height: 50px;
+
+    .header-left h1 {
+        font-size: 24px;
+    }
+
+    .header-right .ddmenu {
+        z-index: 10;
+
+        .menu-icon {
+            position: relative;
+        }
+
+        .menu-icon:hover {
+            cursor: pointer;
+        }
+
+        .menu-list {
+            position: absolute;
+            top: 50px;
+            right: 0;
+
+            dt {
+                font-size: 16px;
+                line-height: 40px;
+                font-weight: lighter;
+                padding-right: 1em;
+    
+                i {
+                    width: 20px;
+                    margin-right: 10px;
+                    text-align: center;
+                }
+
+    
+            }
+    
+            dd ul {
+                background-color: rgba(170, 170, 170, 0.3);
+                margin: 0;
+    
+                li {
+                    line-height: 40px;
+                    padding-left: 30%;
+                }
+    
+                li:hover {
+                    background-color: rgb(201, 111, 111);
+                }
+                
+    
+            }            
+        }
+    }
+}
+
+main {
+    .side-menu {
+
+        
+        
+        dt {
+            font-size: 16px;
+            line-height: 40px;
+            font-weight: lighter;
+
+            i {
+                width: 20px;
+                margin-right: 10px;
+                text-align: center;
+            }
+
+        }
+
+        dd ul {
+            background-color: rgba(170, 170, 170, 0.3);
+            margin: 0;
+
+            li {
+                line-height: 40px;
+                padding-left: 30%;
+            }
+
+            li:hover {
+                background-color: rgb(201, 111, 111);
+            }
+            
+
+        }
+
+    }
+
+    .main-content {
+        h3 {
+            font-size: 18px;
+        }
+
+        .main-content-function, .search {
+            background-color: rgba(170, 170, 170, 0.2);
+        }
+
+        .item {
+            margin-bottom: 16px;
+
+            input[type="text"] {
+                width: 20em;
+            }
+
+            .item-name {
+                width: 10em;
+            }
+
+            .item-option {
+                width: 3em;
+            }
+
+            .radio {
+                width: 4em;
+            }
+
+            select {
+                width: 15em;
+            }
+        }
+
+        .delete {
+            text-decoration: underline;
+        }
+
+        
+    }
+
+
+}

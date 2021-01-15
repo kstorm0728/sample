@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBO-Field</title>
+
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+<body>
+    <header class="container-fluid d-flex align-items-center justify-content-between">
+        <div class="header-left">
+            <h1>PBO-Field</h1>
+        </div>
+        <div class="header-right d-flex align-items-center">
+            <p class="">株式会社エム・フィールド　様</p>
+            <div class="ddmenu">
+                <i class="menu-icon fas fa-bars fa-lg mx-2 ml-md-5"></i>
+                <dl class="menu-list bg-dark text-white m-0">
+                    <dt class="pl-3"><i class="fas fa-home"></i>ホーム</dt>
+                        
+                    <dt class="accordion-title pl-3"><i class="fas fa-stream"></i>ワークフロー</dt>
+                    <dd class="accordion-list">
+                        <ul class="list-unstyled">
+                            <li>作成</li>
+                            <li>検索</li>
+                            <li>実行</li>
+                            <li>実行履歴</li>
+                        </ul>
+                    </dd>
+                        
+                    <dt class="accordion-title pl-3"><i class="far fa-file-code"></i>復旧スクリプト</dt>
+                    <dd class="accordion-list">
+                        <ul class="list-unstyled">
+                            <li>a</li>
+                            <li>b</li>
+                            <li>c</li>
+                            <li>d</li>
+                        </ul>
+                    </dd>
+
+                    <dt class="accordion-title pl-3"><i class="fas fa-sync"></i>自動復旧</dt>
+                    <dd class="accordion-list">
+                        <ul class="list-unstyled">
+                            <li>a</li>
+                            <li>b</li>
+                            <li>c</li>
+                            <li>d</li>
+                        </ul>
+                    </dd>
+
+                    <dt class="accordion-title pl-3"><i class="fas fa-search"></i>予知検知</dt>
+                    <dd class="accordion-list">
+                        <ul class="list-unstyled">
+                            <li>a</li>
+                            <li>b</li>
+                            <li>c</li>
+                            <li>d</li>
+                        </ul>
+                    </dd>
+
+                    <dt class="accordion-title pl-3"><i class="fas fa-cog"></i>マスターメンテナンス</dt>
+                    <dd class="accordion-list">
+                        <ul class="list-unstyled">
+                            <li>a</li>
+                            <li>b</li>
+                            <li>c</li>
+                            <li>d</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <main class="">
+        <div class="container-fluid row p-0 m-0">
+            <div class="side-menu col-2 d-none d-xl-block bg-dark text-white pt-4 px-0 m-0">
+                <dl class="menu-list">
+                    <dt class="pl-3"><i class="fas fa-home"></i>ホーム</dt>
+                        
+                    <dt class="accordion-title pl-3"><i class="fas fa-stream"></i>ワークフロー</dt>
+                    <dd class="accordion-list">
+                        <ul class="list-unstyled">
+                            <li>作成</li>
+                            <li>検索</li>
+                            <li>実行</li>
+                            <li>実行履歴</li>
+                        </ul>
+                    </dd>
+                        
+                    <dt class="accordion-title pl-3"><i class="far fa-file-code"></i>復旧スクリプト</dt>
+                    <dd class="accordion-list">
+                        <ul class="list-unstyled">
+                            <li>a</li>
+                            <li>b</li>
+                            <li>c</li>
+                            <li>d</li>
+                        </ul>
+                    </dd>
+
+                    <dt class="accordion-title pl-3"><i class="fas fa-sync"></i>自動復旧</dt>
+                    <dd class="accordion-list">
+                        <ul class="list-unstyled">
+                            <li>a</li>
+                            <li>b</li>
+                            <li>c</li>
+                            <li>d</li>
+                        </ul>
+                    </dd>
+
+                    <dt class="accordion-title pl-3"><i class="fas fa-search"></i>予知検知</dt>
+                    <dd class="accordion-list">
+                        <ul class="list-unstyled">
+                            <li>a</li>
+                            <li>b</li>
+                            <li>c</li>
+                            <li>d</li>
+                        </ul>
+                    </dd>
+
+                    <dt class="master-maintenance accordion-title pl-3"><i class="fas fa-cog"></i>マスターメンテナンス</dt>
+                    <dd class="accordion-list">
+                        <ul class="list-unstyled">
+                            <li>a</li>
+                            <li>b</li>
+                            <li>c</li>
+                            <li>d</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="main-content col-xs-12 col-xl-10 px-0">
+                <div class="main-header bg-dark text-white">
+                    <h3 class="p-2">ワークフロー検索</h3>
+                </div>
+                <div class="pb-3">
+                    <div class="main-content-function row row-cols-1 row-cols-md-2 px-md-5 pt-5 pb-3 m-0">
+                        <div class="col">
+                            <div class="item d-flex">
+                                <p class="item-name">パーツ名</p>
+                                <input class="parts-name" type="text">
+                            </div>
+                            <div class="item d-flex align-items-center">
+                                <p class="item-name">種別</p>
+                                <p class="item-option">L1</p><input class="radio" type="radio">
+                                <p class="item-option">L2</p><input class="radio" type="radio">
+                                <p class="item-option">L3</p><input class="radio" type="radio">
+                            </div>
+                            <div class="item d-flex align-items-center">
+                                <p class="item-name">実行可否</p>
+                                <p class="item-option">可</p><input class="radio" type="radio">
+                                <p class="item-option">否</p><input class="radio" type="radio">
+                            </div>
+                            <div class="item d-flex align-items-center">
+                                <p class="item-name">対話/非対話</p>
+                                <p class="item-option">対話</p><input class="radio" type="radio">
+                                <p class="item-option">非対話</p><input class="radio" type="radio">
+                            </div>
+                            <div class="item d-flex">
+                                <p class="item-name">エラー時の動作</p>
+                                <select name="error" id="">
+                                    <option value="default">選択してください</option>
+                                    <option value="error1">エラー１</option>
+                                    <option value="error2">エラー２</option>
+                                    <option value="error3">エラー３</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item d-flex">
+                                <p class="item-name">コメント</p>
+                                <input  type="text">
+                            </div>
+                            <div class="item d-flex">
+                                <p class="item-name">変数</p>
+                                <input  type="text">
+                            </div>
+                            <div class="item d-flex">
+                                <p class="item-name">コマンド</p>
+                                <input  type="text">
+                            </div>
+                            <div class="item d-flex">
+                                <p class="item-name">フィルタ</p>
+                                <select name="filter" id="">
+                                    <option value="default">辞書形式</option>
+                                    <option value="filter1">フィルタ１</option>
+                                    <option value="filter2">フィルタ１</option>
+                                    <option value="filter3">フィルタ１</option>
+                                </select>
+                            </div>
+                            <div class="item d-flex">
+                                <p class="item-name">マッチング</p>
+                                <select name="matching" id="">
+                                    <option value="default">全項目完全一致</option>
+                                    <option value="matching1">マッチング１</option>
+                                    <option value="matching2">マッチング２</option>
+                                    <option value="matching3">マッチング３</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search pb-3 d-flex justify-content-center align-items-center">
+                        <p class="px-4 py-1 mr-3 bg-dark rounded-pill text-white">検索</p>
+                        <p class="delete">×クリア</p>
+                    </div>
+
+                    <div class="search-result bg-white py-4"></div>
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">モジュール名</th>
+                                <th scope="col">種別</th>
+                                <th scope="col">実行可否</th>
+                                <th scope="col">対話/非対話</th>
+                                <th scope="col">エラー時の動作</th>
+                                <th scope="col">コメント</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td scope="row">L1 ファイル更新</th>
+                                <td>L1</td>
+                                <td>非</td>
+                                <td>非対話</td>
+                                <td>スキップ①</td>
+                                <td>ああああああ</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">L2 ファイル更新</th>
+                                <td>L2</td>
+                                <td>可</td>
+                                <td>対話</td>
+                                <td>終了</td>
+                                <td>いいいいいい</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">L3 ファイル更新</th>
+                                <td>L3</td>
+                                <td>可</td>
+                                <td>非対話</td>
+                                <td>スキップ①</td>
+                                <td>うううううう</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>                   
+                </div>
+
+                
+
+                
+            </div>
+        </div>
+
+        
+    </main>
+
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
